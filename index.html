@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS links and sheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Satisfy" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!--JavaScript, jquery and fonts-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="assets/app.js"></script>
+</head>
+
+<body>
+
+
+    <!-- Nav Bar -->
+    <nav class="navbar"> <div id = name>&ltMegan Meluskey/></div>
+        <div id="links">
+            <a class="a" onClick="reload" href="index.html">About Me | </a>
+            <a id="portfolio-link" class="a" href="portfolio.html"> Portfolio | </a>
+            <a id="linked in" class="a" href="https://www.linkedin.com/in/megan-meluskey-a34174115/">Linkedin | </a>
+            <a id="github" class="a" href="https://github.com/mhmeluskey">Github | </a>
+        </div>
+    </nav>
+    <!-- End of Nav Bar -->
+
+    <!-- About Me-->
+    <div class="container">
+        <div id="accordion">
+
+            <div class="card custom-card-header" id="about">
+
+                <div class="card-header">
+                    <button id="button" class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                        aria-controls="collapseOne">
+                        About Me
+                    </button>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <img id="mypic" class="responsive" src="images/paperclip.png" alt="mypic" height="40%"
+                                        width="80%">
+                                </div>
+                                <!-- Div holding paragraph -->
+                                <div class="col-9">
+                                    <p>
+                                        Welcome to my page! As you might have guessed, I am from Philadelphia. I
+                                        started my
+                                        career in Sales and
+                                        Recruiting. After about two and half years I decided to explore
+                                        a career change. I landed in a rigerous 6 month, in-class, Full Stack Web
+                                        Development
+                                        program at UPenn.
+                                        Programming and designing in HTML5, CSS3, Bootstrap, JavaScript & jquery,
+                                        Node.js, and MySQL and adding a creative design to my applications, through
+                                        Adobe
+                                        Photoshop is
+                                        something I am
+                                        very committed to. I will be adding projects with React and Mongo DB within the next two months! Check out my Portfolio of projects, my LinkedIn page or my
+                                        Github page!</p>
+                                </div><!--End col-9-->
+                            </div><!--End Row-->
+                        </div><!--End Card Body-->
+                    </div>  <!--End CollapseOne-->
+                </div> <!--End Card Header-->
+            </div> <!--End Custom Card Header-->
+        </div><!--End accordion-->
+ </div> <!--End About Me Container -->
+
+
+
+    <div class="footer">
+        <p> © Copyright 2018 </p>
+    </div>
+
+
+</body>
+
+</html>
