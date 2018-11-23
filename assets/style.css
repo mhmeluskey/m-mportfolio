@@ -1,93 +1,64 @@
-body {
-  background: url("../images/philly.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size   : cover;
-  -o-background-size     : cover;
-  background-size        : cover;
-  background-color       : lightblue;
-  font-size  : 1em;
-  width  : 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #545756;
+body{
+  background-color: black;
+}
+.navbar {
+font-family: fantasy;
+background: rgba(0, 0, 0, 0); 
+font-size: 50px;
+width: 100%;
+margin-top: 2px;
+
+border-bottom: 5px white solid;
 }
 
-#name {
-  text-align: center; 
+#philly-crop{
+  margin-left: 80px; 
+  margin-top: -10px;
+  height: 500px; 
+  width: 400px;
+
+ 
 }
 
-button{
-  background-color: black; 
+
+
+#info {
+ height: 600px;
+ width: 600px;
+ margin-top: -70px;
+
+}
+
+
+
+
+button,
+.btn {
+  border: 2px solid white;
+  background: black; 
+  color: white; 
+  font-family: fantasy;
+  
+}
+a{
+  color: white; 
+  font: bolder;
+}
+
+.dropdown-item{
   color: white; 
 }
+.dropdown-menu{
+background: red;
 
-.navbar {
-font-family: 'Cabin Sketch', cursive;
-background-color: black;
-text-shadow: 3px 3px red;
-color: white;
-font-size: 50px;
-width: 100%
-}
-
-/* Links in Nav Bar */
-a.a {
-   text-shadow: 2px 2px blue; 
-   color: white;
-   font-size: 20px;   
-}
-
-/* animation of septa train comming across page for later use when project is expanded */
-#septa{
-
-position: relative;
-z-index: 1; 
-overflow: inline;
-margin-top: -80px;
-margin-left: 170px;
-
-
-}
-
-
-
-
-.custom-card-header {
+border: 3px solid black; 
 color: white; 
-  background: rgba(0, 0, 0, 0.5);  
-   border-radius: 50px;
-   margin: 10px; 
 }
 
 
-#mypic {
-   float: left;
-   height: 100%;
-   width: 100%;
-   opacity: 1;
-  
-       animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-       transform: translate3d(0, 0, 0);
-       backface-visibility: hidden;
-       perspective: 1000px;
-     }
-     
-     @keyframes shake {
-       10%, 90% {
-         transform: translate3d(-1px, 0, 0);
-       }
-       
-       20%, 80% {
-         transform: translate3d(2px, 0, 0);
-       }
-     
-       30%, 50%, 70% {
-         transform: translate3d(-4px, 0, 0);
-       }
-     
-       40%, 60% {
-         transform: translate3d(4px, 0, 0);
-       }
-     }
+
+
+
 
 .footer {
    position: fixed;
@@ -104,53 +75,7 @@ color: white;
 
 
 
-@media only screen and (max-width: 766px) {
- #mypic {
-   float: left;
-   height: 200px;
-   width: 200px;
-   opacity: 1;
-   margin-left: -40px;
-  
-     }
 
-}
-@media only screen and (max-width: 700px) {
-   .navbar {
-       font-family: 'Cabin Sketch', cursive;
-       background-color: black;
-       color: white;
-       font-size: 20px;
-       width: 100%
-       }
-       
-       /* Links in Nav Bar */
-       a.a {
-           color: white;
-           font-size: 15px;   
-       }
-
-       #mypic {
-         float: left;
-         height: 100px;
-         width: 100px;
-         opacity: 1;
-         margin-left: -15px;
-       }
-
-
-       /*About me paragraph */
-       p{
-             font-size: 12px; 
-        }
-     
-
-
-       }
-
-       
-
-/* End of Media Queries for iphones */
 
 
 #signOne {
@@ -170,18 +95,20 @@ z-index: 2;
    }
  
    to {
-     margin-left: 12%;
+     margin-left: 0%;
 
    }
  }
 
 
 #signTwo{
-   top: 50%;
+   top: 35%;
    position: fixed;
    right: 0px; 
    bottom: 0px;  
-   
+   z-index: 2; 
+    height: 120%;
+    width: 50%;
    animation-duration: 3s;
    animation-name: slidein;
 
@@ -194,7 +121,7 @@ z-index: 2;
    }
    to {
      margin-right: 0%;
-     width: 100%;
+     
    }
 
  
@@ -226,28 +153,32 @@ font-family: fantasy;
 
 }  
 
-/* links to projects */
-a{
-   color: white; 
+
+
+
+
+
+
+
+
+
+
+
+.app-pic{
+  height: 120px;
+  width: 120px;
+  border-radius: 15%; 
 }
 
-#portfolio{
-
+.display {
+  width: 600px;
   margin: auto; 
-  background-color: black;
-  width: 500px; 
-  margin-top: 100px; 
-  height: 320px;
-  padding-top: -100px;
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.0);  
+ 
+
 }
 
 .col {
-  text-align: center;
-  padding: auto; 
-  border: solid 5px white;
-  margin: 10px; 
-}
-
-#row-one {
-  margin-top: -20px;
+  margin: auto;
 }
