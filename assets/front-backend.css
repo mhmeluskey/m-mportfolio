@@ -109,8 +109,8 @@ body {
     background: rgba(0, 0, 0, 0); 
     font-size: 50px;
     width: 100%;
-    margin-top: 2px;
-    position: fixed; 
+ 
+
     }
     
     #philly-crop{
@@ -130,6 +130,18 @@ body {
     #info {
       margin-left: 60px;
     }
+
+    .contact {
+        height: 500px;
+        width: 500px;
+        margin: auto;
+        margin-top: -5px;
+        border-radius: 5%; 
+      }
+
+      form {
+          margin-top: -5px;
+      }
     
     button,
     .btn {

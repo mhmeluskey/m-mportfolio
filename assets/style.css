@@ -20,7 +20,11 @@ border-bottom: 5px white solid;
  
 }
 
-
+.contact {
+  height: 500px;
+  width: 500px;
+  background-color: black; 
+}
 
 #info {
  height: 600px;
