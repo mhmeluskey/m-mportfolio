@@ -79,6 +79,7 @@ body {
     background: rgba(0, 0, 0, 0); 
     font-size: 50px;
     width: 100%;
+    font-family: fantasy;
  
 
     }
@@ -90,28 +91,7 @@ body {
       width: 450px;
     }
     
-    #aboutme-info {
-    
-      margin-left: 580px;
-      margin-top: -500px;
-      color: white; 
-    }
-    
-    #info {
-      margin-left: 60px;
-    }
 
-    .contact {
-        height: 500px;
-        width: 500px;
-        margin: auto;
-        margin-top: -5px;
-        border-radius: 5%; 
-      }
-
-      form {
-          margin-top: -5px;
-      }
     
     button,
     .btn {
@@ -138,15 +118,83 @@ body {
     
     
     
-    
-    .app-pic{
-      height: 120px;
-      width: 120px;
-      border-radius: 15%; 
-      display: none;   
-      z-index: 5;
-    }
-    
+  
+
+
+
+.d-block {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+
+}
+
+#photoshop {
+background: black;
+color: white; 
+width: 300px;
+margin: auto;
+
+ 
+ 
+}
+
+#res {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#in {
+  height: 45px;
+  width: 45px;
+  margin: auto;
+}
+#git {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+}
+#email {
+  height: 45px;
+  width: 45px; 
+  margin: auto;
+}
+
+#contact-info {
+  
+  margin-top: -50px;
+  position: relative;
+margin-left: 300px;
+  width: 100%;
+
+}
+
+.app-pic .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 7;
+}
+
+
+.app-pic{
+  height: 120px;
+  width: 120px;
+  border-radius: 15%; 
+  display: none;   
+  z-index: 5;
+}
+
+
     .display {
   
       margin: auto; 
@@ -170,8 +218,18 @@ body {
     }
 
     #info{
-      height: 400px;
-      width: 400px;
-      float: right; 
-      margin-right: 100px;
+      height: 350px;
+      width: 350px;
+    
+    
+    }
+
+    #about-me{
+     
+     margin-bottom: 50px;
+     
+      width: 200px;
+      margin-left: 50px;
+      background: white; 
+   
     }
