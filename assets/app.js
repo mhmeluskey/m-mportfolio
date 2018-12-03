@@ -1,13 +1,15 @@
 //what page looks like on load
-$(document).ready(function () {
-  
-console.log("hello world")
+$(document).ready(function() {
+  console.log("hello world");
 
-$('.app-pic').delay(5000).fadeIn(2000);
+  $(".app-pic")
+    .delay(1000)
+    .fadeIn(2000);
 
-$('.project-links').delay(5000).fadeIn(2000);
-
-
-$('#web-developer').delay(1000).fadeIn(2000);
-$('#title').delay(500).fadeIn(2000);
+  $("button")
+    .delay(1000)
+    .fadeIn(2000);
+  $("#myname")
+    .delay(500)
+    .fadeIn(2000);
 });
