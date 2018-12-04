@@ -43,12 +43,20 @@ a:hover {
   cursor: pointer;
 }
 
+i:hover {
+  border: red solid;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 400px;
+  margin-left: 50%;
+}
 i {
   border: solid white;
   border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 3px;
-  margin-top: 600px;
+  padding: 6px;
+  margin-top: 400px;
   margin-left: 50%;
 }
 
