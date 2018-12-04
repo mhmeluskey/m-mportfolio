@@ -85,6 +85,7 @@ i {
   margin: 50px;
   border-radius: 15%;
   border: black solid 5px;
+  border-radius: 50%;
 }
 
 #about-me {
