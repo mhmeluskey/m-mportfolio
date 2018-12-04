@@ -68,9 +68,7 @@ i {
 .contact-pic {
   height: 50px;
   width: 50px;
-}
-
-#resume {
+  border: solid black 1px;
   border-radius: 50%;
 }
 
