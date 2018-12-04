@@ -5,56 +5,6 @@ body {
   -o-background-size: cover;
 }
 
-#myname {
-  background-size: cover;
-  color: white;
-  font-family: fantasy;
-  text-align: center;
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  font-size: 40px;
-}
-
-button {
-  font-size: 15px;
-  margin: 5px;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-
-a {
-  color: white;
-}
-a:hover {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-footer {
-  position: fixed;
-  bottom: 0%;
-  color: white;
-  text-align: center;
-  width: 100%;
-  font: 10px;
-  font-family: fantasy;
-}
-
-/* media-queries  */
-
-@media screen and (max-width: 500px) {
-  #myname {
-    top: 5%;
-    font-size: 25px;
-  }
-  button {
-    font-size: 10px;
-  }
-}
-/* <--Applications Styles--> */
-
 #nav-name {
   background-size: cover;
   color: white;
@@ -130,6 +80,7 @@ footer {
   border: white solid 5px;
   border-radius: 15%;
 }
+
 /* media-queries  */
 
 @media screen and (max-width: 500px) {
@@ -138,18 +89,19 @@ footer {
     display: none;
   }
   #apps {
-    width: 200px;
+    width: 100px;
+    margin-top: 50px;
   }
   .col {
+    margin-top: 0px;
     text-align: center;
-
-    margin-top: 10px;
-    margin-left: 5px;
+    margin-bottom: 0px;
   }
   .app-pic {
     height: 75px;
     width: 75px;
     border: white solid 5px;
     border-radius: 15%;
+    margin: 0px;
   }
 }

@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("philly.png") no-repeat center center fixed;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+
+#myname {
+  background-size: cover;
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  font-size: 40px;
+}
+
+button {
+  font-size: 15px;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+i {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-top: 60%;
+  margin-left: 50%;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.contact {
+  position: absolute;
+  bottom: -70%;
+  width: 100%;
+  margin: 2px;
+  text-align: center;
+}
+
+.contact-pic {
+  height: 50px;
+  width: 50px;
+}
+
+#resume {
+  border-radius: 50%;
+}
+
+.me-pic {
+  height: 300px;
+  margin: 50px;
+  border-radius: 15%;
+  border: black solid 5px;
+}
+
+#about-me {
+  position: relative;
+  float: left;
+}
+
+#words {
+  position: absolute;
+  width: 40%;
+  height: 300px;
+  margin-left: 350px;
+  margin-top: 100px;
+  text-align: center;
+}
+/* media-queries  */
+
+@media screen and (max-width: 500px) {
+  #myname {
+    top: 5%;
+    font-size: 25px;
+  }
+  button {
+    font-size: 10px;
+  }
+}

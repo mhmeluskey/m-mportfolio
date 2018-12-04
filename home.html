@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Satisfy"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/main.css" />
 
     <!-- JavaScript, jquery -->
     <script
@@ -38,13 +38,63 @@
     <script src="assets/app.js"></script>
   </head>
   <body>
-    <div id="myname">
-      &ltMegan Meluskey/>
-      <div>
-        <button><a href="applications.html">Applications</a></button>
+    <section class="intro">
+      <div class="inner">
+        <div class="content" id="myname">
+          &ltMegan Meluskey/>
+          <div>
+            <button><a href="applications.html">Applications</a></button>
+          </div>
+        </div>
+        <a class="contact-links" href="#words"><i class="arrow down"></i></a>
+      </div>
+    </section>
+    <div class="container">
+      <div class="col-6" id="about-me">
+        <img
+          class="responsive me-pic"
+          src="assets/images/me-pic.jpg"
+          alt="Megan"
+        />
+      </div>
+      <div class="col-6" id="words">
+        Full Stack Web Developer in Philadelphia, PA. Proficiant in HTML, CSS3,
+        JavaScript, jQuery, React, MongoDB, MySQL, Node.js as well as Adobe
+        Photoshop and Premeir Pro.
       </div>
     </div>
-
-    <footer>© 2018</footer>
+    <div class="col-sm-12 contact">
+      <a
+        class="contact-links"
+        href="https://www.linkedin.com/in/megan-meluskey-a34174115/"
+      >
+        <img
+          class="responsive contact-pic"
+          src="assets/images/linked.png"
+          alt="linkedin"
+      /></a>
+      <a class="contact-links" href="https://github.com/mhmeluskey">
+        <img
+          class="responsive contact-pic"
+          src="assets/images/github.png"
+          alt="github"
+      /></a>
+      <a
+        class="contact-links"
+        href="mailto:mhmeluskey@gmail.com?subject=I Visted your portfolio"
+      >
+        <img
+          class="responsive contact-pic"
+          src="assets/images/gmail.png"
+          alt="gmail"
+      /></a>
+      <a class="contact-links" href="assets/images/MeganMeluskeyResume.pdf">
+        <img
+          id="resume"
+          class="responsive contact-pic"
+          src="assets/images/res.jpg"
+          alt="resume"
+      /></a>
+    </div>
   </body>
 </html>
